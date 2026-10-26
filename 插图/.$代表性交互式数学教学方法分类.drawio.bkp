@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="交互式数学教学方法分类" id="8kAjajPvmltFTQorC6em">
+    <mxGraphModel dx="1502" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#555555;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vuFZAxB9cQOI7CWHT1IL-9" target="vuFZAxB9cQOI7CWHT1IL-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="730" />
+              <mxPoint x="765" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#555555;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vuFZAxB9cQOI7CWHT1IL-9" target="vuFZAxB9cQOI7CWHT1IL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#555555;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vuFZAxB9cQOI7CWHT1IL-9" target="vuFZAxB9cQOI7CWHT1IL-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="730" />
+              <mxPoint x="765" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#555555;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vuFZAxB9cQOI7CWHT1IL-10" target="vuFZAxB9cQOI7CWHT1IL-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="520" />
+              <mxPoint x="1015" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#555555;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vuFZAxB9cQOI7CWHT1IL-10" target="vuFZAxB9cQOI7CWHT1IL-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="520" />
+              <mxPoint x="1015" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#555555;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vuFZAxB9cQOI7CWHT1IL-11" target="vuFZAxB9cQOI7CWHT1IL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#555555;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vuFZAxB9cQOI7CWHT1IL-12" target="vuFZAxB9cQOI7CWHT1IL-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="940" />
+              <mxPoint x="1015" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#555555;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vuFZAxB9cQOI7CWHT1IL-12" target="vuFZAxB9cQOI7CWHT1IL-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="940" />
+              <mxPoint x="1015" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-9" value="交互式数学&lt;br&gt;教学方法" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EDEDED;strokeColor=#333333;strokeWidth=1.5;fontFamily=SimSun;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="540" y="685" width="185" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-10" value="示范学习" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;strokeWidth=1.5;fontFamily=SimSun;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="810" y="485" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-11" value="流程控制" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;strokeWidth=1.5;fontFamily=SimSun;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="810" y="695" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-12" value="交互反馈优化" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#555555;strokeWidth=1.5;fontFamily=SimSun;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="810" y="905" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-13" value="&lt;b&gt;MathDial&lt;/b&gt;&lt;br&gt;人类教师示范&lt;br&gt;监督微调" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#777777;strokeWidth=1.2;fontFamily=SimSun;fontSize=19;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="400" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-14" value="&lt;b&gt;SocraticLM&lt;/b&gt;&lt;br&gt;多智能体生成教学示范&lt;br&gt;教学能力微调" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#777777;strokeWidth=1.2;fontFamily=SimSun;fontSize=19;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="540" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-15" value="&lt;b&gt;StratL&lt;/b&gt;&lt;br&gt;识别学生状态&lt;br&gt;控制教学意图与提示" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#777777;strokeWidth=1.2;fontFamily=SimSun;fontSize=19;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="680" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-16" value="&lt;b&gt;PedagogicalRL&lt;/b&gt;&lt;br&gt;多轮 GRPO&lt;br&gt;终局解题与教学评价" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#777777;strokeWidth=1.2;fontFamily=SimSun;fontSize=19;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="820" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vuFZAxB9cQOI7CWHT1IL-17" value="&lt;b&gt;MHPO〔22〕&lt;/b&gt;&lt;br&gt;迭代 DPO&lt;br&gt;单轮教学评价＋长程收益" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#777777;strokeWidth=1.2;fontFamily=SimSun;fontSize=19;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="960" width="390" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

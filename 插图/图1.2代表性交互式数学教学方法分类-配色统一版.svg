@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="790" viewBox="0 0 1280 790" role="img" aria-labelledby="title desc">
+<title id="title">代表性交互式数学教学方法分类</title>
+<desc id="desc">交互式数学教学方法分为示范学习、流程控制和交互反馈优化，分别采用浅蓝、青绿和浅橙配色。</desc>
+<defs><linearGradient id="rootFill" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#CFE7FC"/><stop offset="1" stop-color="#C7F0E9"/></linearGradient></defs>
+<rect width="1280" height="790" fill="#FFFFFF"/>
+<path d="M 268 394 H 320 M 320 166 V 622 M 320 166 H 375 M 320 394 H 375 M 320 622 H 375" fill="none" stroke="#9AAABB" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 605 166 H 665 M 665 94 V 238 M 665 94 H 725 M 665 238 H 725" fill="none" stroke="#1595E5" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 605 394 H 725" fill="none" stroke="#10AF9E" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 605 622 H 665 M 665 550 V 694 M 665 550 H 725 M 665 694 H 725" fill="none" stroke="#FF893C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="28" y="341" width="240" height="106" rx="10" fill="url(#rootFill)" stroke="#94B3C6" stroke-width="2.2"/>
+<text x="148.0" y="377.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="700" fill="#112642">交互式数学</text>
+<text x="148.0" y="414.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="700" fill="#112642">教学方法</text>
+<rect x="375" y="126" width="230" height="80" rx="10" fill="#CFE7FC" stroke="#1595E5" stroke-width="2.2"/>
+<text x="490.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="700" fill="#112642">示范学习</text>
+<rect x="375" y="354" width="230" height="80" rx="10" fill="#C7F0E9" stroke="#10AF9E" stroke-width="2.2"/>
+<text x="490.0" y="396.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="700" fill="#112642">流程控制</text>
+<rect x="375" y="582" width="230" height="80" rx="10" fill="#FFE6D1" stroke="#FF893C" stroke-width="2.2"/>
+<text x="490.0" y="624.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="700" fill="#112642">交互反馈优化</text>
+<rect x="725" y="35" width="510" height="118" rx="10" fill="#CFE7FC" stroke="#1595E5" stroke-width="2.2"/>
+<text x="980.0" y="64.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="28" font-weight="700" fill="#112642">MathDial</text>
+<text x="980.0" y="97.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">人类教师示范</text>
+<text x="980.0" y="128.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">监督微调</text>
+<rect x="725" y="179" width="510" height="118" rx="10" fill="#CFE7FC" stroke="#1595E5" stroke-width="2.2"/>
+<text x="980.0" y="208.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="28" font-weight="700" fill="#112642">SocraticLM</text>
+<text x="980.0" y="241.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">多智能体生成教学示范</text>
+<text x="980.0" y="272.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">教学能力微调</text>
+<rect x="725" y="335" width="510" height="118" rx="10" fill="#C7F0E9" stroke="#10AF9E" stroke-width="2.2"/>
+<text x="980.0" y="364.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="28" font-weight="700" fill="#112642">StratL</text>
+<text x="980.0" y="397.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">识别学生状态</text>
+<text x="980.0" y="428.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">控制教学意图与提示</text>
+<rect x="725" y="491" width="510" height="118" rx="10" fill="#FFE6D1" stroke="#FF893C" stroke-width="2.2"/>
+<text x="980.0" y="520.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="28" font-weight="700" fill="#112642">PedagogicalRL</text>
+<text x="980.0" y="553.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">多轮 GRPO</text>
+<text x="980.0" y="584.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">终局解题与教学评价</text>
+<rect x="725" y="635" width="510" height="118" rx="10" fill="#FFE6D1" stroke="#FF893C" stroke-width="2.2"/>
+<text x="980.0" y="664.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="28" font-weight="700" fill="#112642">MHPO</text>
+<text x="980.0" y="697.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">迭代 DPO</text>
+<text x="980.0" y="728.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial, PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#112642">单轮教学评价＋长程收益</text>
+</svg>
