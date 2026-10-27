@@ -1,0 +1,594 @@
+{
+  "review_date": "2026-10-27",
+  "scope": "40 text reports/summaries/comparisons/implementation notes; key existing logs and result files cross-checked; no inference or training rerun",
+  "project": "/Users/yinheyibei/Desktop/PedagogicalRL-main",
+  "report_counts": {
+    "C 训练信号、奖励和优势诊断": 5,
+    "D 工程有效性与工具执行审计": 13,
+    "B 固定教学回答与输入协议对照": 5,
+    "A 历史正式评测与汇总": 8,
+    "E 影子裁判与实现验收": 6,
+    "F 历史认知反馈和结束行为诊断": 3
+  },
+  "report_inventory": [
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A10010_TEACHING_REWARD_CALIBRATION_20261020.md",
+      "category": "C 训练信号、奖励和优势诊断",
+      "brief": "128轨迹奖励/优势回放和13个定向案例；反事实不是重新训练。",
+      "characters": 4314,
+      "lines": 125,
+      "sha256": "fd0a2f4278220a420b2f4f087fdb28b4dd3f5125d174d407f21cc378eefbadf3"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_CYCLE_AUDIT_04_ANALYSIS_20261010.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "四步生成、更新、检查点重载循环验收。",
+      "characters": 4636,
+      "lines": 131,
+      "sha256": "36109913e4d8a790797398a9c29d18f561e354f43356135ccd487eccbef2b7c0"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_DIAGNOSTICS10_ANALYSIS_20261020.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "真实训练链路empty output未再出现，但奖励错位仍在。",
+      "characters": 4818,
+      "lines": 124,
+      "sha256": "e8f081e35ca4575604544d29c486110e2abbabc5909b20dea24ece8842fc1d56"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_FIXED_TEACHING_500_ANALYSIS_20261019.md",
+      "category": "B 固定教学回答与输入协议对照",
+      "brief": "Base/无Belief100/500固定50题；停止改善，尚无可靠纠错收益。",
+      "characters": 4011,
+      "lines": 101,
+      "sha256": "c6d549e9f65aab3b4d1b1f3123154b43acad8b3ab0eeae5f338cee15c15cce9b"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_FIXED_TEACHING_EVAL_ANALYSIS_20261012.md",
+      "category": "B 固定教学回答与输入协议对照",
+      "brief": "50题四模型生成，正式客观统计按49有效题；未完成统一盲评。",
+      "characters": 8036,
+      "lines": 170,
+      "sha256": "28a7689fbbd0d556f6e4c201882f51a19b45ddbe0917b524e00bade15623f498"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_INPUT_PROTOCOL_EVAL_ANALYSIS_20261012.md",
+      "category": "B 固定教学回答与输入协议对照",
+      "brief": "10题、两模型、三输入协议；格式改善不等于可靠教学。",
+      "characters": 6612,
+      "lines": 152,
+      "sha256": "7dbee326190e2587804c809b639eb01824d82758f5cec1a1354a39efcefe4903"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_NO_BELIEF_500_ANALYSIS_20261019.md",
+      "category": "C 训练信号、奖励和优势诊断",
+      "brief": "无Belief500步；奖励主要随门控通过率改善，训练覆盖下降。",
+      "characters": 4950,
+      "lines": 122,
+      "sha256": "3a089b106dbf47db3b06ab54e1e991e40a72f5f7c94e9349badda289815495ab"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_PADDING_AUDIT_03_ANALYSIS_20261010.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "PAD及序列长度掩码修复验收。",
+      "characters": 4691,
+      "lines": 115,
+      "sha256": "382790220418e2d9e5d1d1f18af7a172e3e225dfc0c10aa02b57f3aa08cf3382"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_REWARD_ADVANTAGE_AUDIT09_20261020.md",
+      "category": "C 训练信号、奖励和优势诊断",
+      "brief": "6400轨迹审计；奖励目标错位、无Belief及工具空输出问题。",
+      "characters": 7979,
+      "lines": 205,
+      "sha256": "78f3524176e9a4eff55fb1ac198678e35d4083ddfd905d0976d082c28d8141ef"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_SHORT100_TEACHING_BELIEF_ANALYSIS_20261012.md",
+      "category": "C 训练信号、奖励和优势诊断",
+      "brief": "Belief启用的100步运行；38699教师轮仅6轮正加成。",
+      "characters": 7948,
+      "lines": 174,
+      "sha256": "26d07f078873188921a72838b483558c562ae1cfc3ff7803ac29a47403bb38ce"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_TEACHER_MASK_COMPARISON01_ANALYSIS_20261020.md",
+      "category": "B 固定教学回答与输入协议对照",
+      "brief": "strict100与truncated100固定50题；54%回答相同，未证明教学提高。",
+      "characters": 4553,
+      "lines": 113,
+      "sha256": "a4e61093cfae61d50e4822d5c131b87fbc25dc4ccfb72d8c478272e00e3e6711"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_TOOLMASK_AUDIT_01_ANALYSIS_20261009.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "两步结构审计通过，但生成文本被误判外部工具观察。",
+      "characters": 3371,
+      "lines": 100,
+      "sha256": "f5b39adb628fd510e5ba801c85ae987c1ceb1f8449f36ff9f4f7bf7693039a2d"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_TOOL_PROVENANCE_AUDIT_02_ANALYSIS_20261010.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "真实执行来源修复验收；不可推导教学提高。",
+      "characters": 4159,
+      "lines": 104,
+      "sha256": "945465ffa16214aab29bda82840f762587b681bf0d3a4a3d9884199b33de611e"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_TRUNCATED_MASK_CYCLE08_ANALYSIS_20261019.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "截断正文策略的四步重载循环验收。",
+      "characters": 2726,
+      "lines": 70,
+      "sha256": "807460f20615413011f31c9de03b1c108a12d2f0a65c5d7f50bb024f56d333e9"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_TRUNCATED_MASK_SHORT09_ANALYSIS_20261020.md",
+      "category": "C 训练信号、奖励和优势诊断",
+      "brief": "截断正文资格扩大，覆盖提升但未出现明确教学收益。",
+      "characters": 4480,
+      "lines": 105,
+      "sha256": "cf3a3f9b6886be67e7b55a2053e0de38e5579059470425b3c7bf58f18eb462b3"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/A100_TRUNCATED_MASK_SMOKE07_ANALYSIS_20261019.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "允许截断正文参与loss的两步工程审计。",
+      "characters": 2701,
+      "lines": 74,
+      "sha256": "75379e1885859f4e08da8432ac47654796f6e646fcf46742f137d62c0fc5ba3c"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/ALL_EXPERIMENTS_COMPREHENSIVE_ANALYSIS.md",
+      "category": "A 历史正式评测与汇总",
+      "brief": "截至9月14日的六模型汇总；不覆盖后续1500及H20/A100新实验。",
+      "characters": 14783,
+      "lines": 427,
+      "sha256": "df01a0822d4253b09caee60899e8200449848545d7a66ac2d80015a55e850b24"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/BELIEF16_EVALUATION_ANALYSIS_REPORT.md",
+      "category": "A 历史正式评测与汇总",
+      "brief": "V1纯教学正式评测；规则改善，学生收益低于Base。",
+      "characters": 11917,
+      "lines": 404,
+      "sha256": "4cf44a8ca4e35bc6d49ad1d18f171b69a7fdcb343ce1fafa7c1fa8ab55c430fe"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/BELIEF_V2_H20_1024_RUN1_ANALYSIS_REPORT.md",
+      "category": "A 历史正式评测与汇总",
+      "brief": "H20重新训练及1024预算；合规更好但学生收益下降，非单因素对照。",
+      "characters": 12269,
+      "lines": 368,
+      "sha256": "78000de713d0701c4de50df6b947a3d260cb11aadeabe1ed363e10a1d2520cb4"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/BELIEF_V2_H20_EOS_MASK_RUN1_ANALYSIS_REPORT.md",
+      "category": "A 历史正式评测与汇总",
+      "brief": "EOS-Mask完整评测；BigMath与多项教学指标回退。",
+      "characters": 10493,
+      "lines": 233,
+      "sha256": "7e1cb98f3196862b94e8a77fd002317a05bcb78708b225701833053835edfc73"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/CHECKPOINT1180_ANALYSIS_REPORT.md",
+      "category": "A 历史正式评测与汇总",
+      "brief": "V1中期检查点；不足以支持回退1180更好。",
+      "characters": 12812,
+      "lines": 466,
+      "sha256": "af2b1f7cd0f48b7391da6fe1ad3c1d5bf0dd5cc51874622e25f2afec7e5b111b"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/CHECKPOINT1500_ANALYSIS_REPORT.md",
+      "category": "A 历史正式评测与汇总",
+      "brief": "V2续训1500；BigMath增量17.075 pp，跨任务表现不一致。",
+      "characters": 7885,
+      "lines": 160,
+      "sha256": "f1c856ed61e3bf727ee4a5df391448b1391887e6fca0a1f19befbc82e86b61bb"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/EVALUATION_RESULTS_TABLES.md",
+      "category": "A 历史正式评测与汇总",
+      "brief": "Base与早期RL-2500完整对比；可用作历史教学训练基线。",
+      "characters": 5870,
+      "lines": 166,
+      "sha256": "ed4e74a24924e94d2c605f695ecb6698042c6ab0384d6646b3d8be522c737a83"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/SANDBOXFUSION_IO_VALIDATION01_ANALYSIS_20261020.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "串行和8并发固定程序验证通过。",
+      "characters": 3585,
+      "lines": 87,
+      "sha256": "51f0bfa2b7c6375899ff09a7230c11848615e6bd57c2616973636da21b28f681"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/SANDBOXFUSION_IO_VALIDATION02_ANALYSIS_20261020.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "64请求并发配置验证通过，不等于全部程序同时运行或教学提高。",
+      "characters": 3034,
+      "lines": 73,
+      "sha256": "ea3c5e46268c89b3553f047ff23a8c4f7d68b20f9a72125c20b16b60c8e760b6"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/SANDBOXFUSION_OUTPUT_PROBE01_ANALYSIS_20261020.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "固定程序复现并发异常空stdout。",
+      "characters": 4079,
+      "lines": 90,
+      "sha256": "18780616a7a1a086b310395a96bf528d41691f8a1766bcea241ceb9ec437a22c"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/SANDBOXFUSION_SERVER_INFO_ANALYSIS_20261020.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "定位服务端输出捕获候选缺陷，不是教学对比。",
+      "characters": 4606,
+      "lines": 118,
+      "sha256": "ce4288347c4035136ddb7a05c351ff7a165c64e2b8ddf7a2ba3d173de1224c63"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/TEACHER_TOKEN_AUDIT_ANALYSIS_20261007.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "EOS/序列化与实际loss诊断；PASS不认证教学质量。",
+      "characters": 4546,
+      "lines": 123,
+      "sha256": "4345853fa062a11b322a8a1af0f8d013922f78197310e3060b699322ffe328dd"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/TEACHER_TOKEN_AUDIT_BASE_COMPARISON_20261007.md",
+      "category": "D 工程有效性与工具执行审计",
+      "brief": "Base起点对照；发现工具mask跨轮误屏蔽。",
+      "characters": 4344,
+      "lines": 109,
+      "sha256": "5561e5a8f92a8a8fd65d8a730c189d3c3977071409db21d2ee3e9cf5ef16b26a"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/TEACHING_SHADOW33_01_ANALYSIS_20261020.md",
+      "category": "E 影子裁判与实现验收",
+      "brief": "v5双轴影子校准，质量回归未通过。",
+      "characters": 3571,
+      "lines": 111,
+      "sha256": "485c46cdb15c57aa86834f73e0f430629bb20189cd62fdcc61d34175a172f9c4"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/TEACHING_SHADOW33_02_ANALYSIS_20261020.md",
+      "category": "E 影子裁判与实现验收",
+      "brief": "v5.1协议有所改善，协议/回归仍未通过。",
+      "characters": 3760,
+      "lines": 105,
+      "sha256": "519cdf2efea0ae77733a9288b433410237705a110989b74098e34bcc6b8f0df6"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/TEACHING_SHADOW33_03_ANALYSIS_20261021.md",
+      "category": "E 影子裁判与实现验收",
+      "brief": "v5.2协议33/33有效，但30/32标签匹配、回归未通过、未接入训练。",
+      "characters": 3578,
+      "lines": 86,
+      "sha256": "a751651f4df38592e2e9fa62ce9f015e5ae4bd3c33c32bc1396916875ffbe198"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/TEACHING_SHADOW33_IMPLEMENTATION_20261020.md",
+      "category": "E 影子裁判与实现验收",
+      "brief": "实现与mock验收，不是真实新模型质量结果。",
+      "characters": 1209,
+      "lines": 39,
+      "sha256": "108b14f0a00c86d0c2b3a94c0eecf2174f6007344913250b2085309c269bcb6c"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/TEACHING_SHADOW33_V51_IMPLEMENTATION_20261020.md",
+      "category": "E 影子裁判与实现验收",
+      "brief": "协议实现和本地测试，实际质量需看对应运行报告。",
+      "characters": 786,
+      "lines": 25,
+      "sha256": "7f87e3f9ad6a72a97c9f1365dd2a7022128b5497fd53d56ca4aa066678eaa9a7"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/TEACHING_SHADOW33_V52_IMPLEMENTATION_20261020.md",
+      "category": "E 影子裁判与实现验收",
+      "brief": "单教学轴实现说明，不能与后续真实结果混算。",
+      "characters": 833,
+      "lines": 27,
+      "sha256": "39365964d59812f0a6775a3b22e5cf42c81b051ade032bdd2fe5c915217c714c"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief_v2_run3_diagnostics_20260917/report.md",
+      "category": "F 历史认知反馈和结束行为诊断",
+      "brief": "472463教师轮，正反馈约0.040%；覆盖诊断非独立教学效果。",
+      "characters": 1966,
+      "lines": 80,
+      "sha256": "f26c4c42bd383b7e295a3053e9a73edf365de0ab9b370b87d305dc05df178915"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief_v2_run3_ending_diagnostics_tokens_20260917/ending_report.md",
+      "category": "F 历史认知反馈和结束行为诊断",
+      "brief": "结束原因诊断，length约62.718%；非推理/教学正式分数。",
+      "characters": 1516,
+      "lines": 48,
+      "sha256": "8a12a23bcbf21a674018dd8464a34282c6b737ae36c4e6d94e8b3e1c6c7a9fd2"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief_v2_run3_ending_diagnostics_tokens_20260917/report.md",
+      "category": "F 历史认知反馈和结束行为诊断",
+      "brief": "另一覆盖口径476131轮，正反馈约0.041%；不可与前报告当独立训练重复。",
+      "characters": 1967,
+      "lines": 80,
+      "sha256": "ee83d7b9e47d8bff794bd081da1f0072ff5bb6f1be50f429663130329ca43290"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/checkpoint1300_eval_results_20260810/CHECKPOINT1300_ANALYSIS_REPORT.md",
+      "category": "A 历史正式评测与汇总",
+      "brief": "14+2混合训练；按当前论文研究范围不纳入第四章主结果。",
+      "characters": 10636,
+      "lines": 340,
+      "sha256": "2a298027b2697618777f9aa0adf1711182436cf0d90b0f6761674f5abdd3c6af"
+    },
+    {
+      "path": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/input_protocol_eval/protocol_comparison.md",
+      "category": "B 固定教学回答与输入协议对照",
+      "brief": "逐题原始内容对照；模型身份可见，不是完整盲评分数。",
+      "characters": 77789,
+      "lines": 1444,
+      "sha256": "87d6420d765bfd56b2dba777d64a3bf78a04908297646cc57ffcabf185a10058"
+    }
+  ],
+  "model_metrics": [
+    {
+      "model": "Base MathSota",
+      "metrics": {
+        "pre": 23.625,
+        "post": 36.25,
+        "gain_pp": 12.625,
+        "leak_vote_pct": 69.3,
+        "pedagogy_vote_rate": 0.402,
+        "leak_coverage": 1.0,
+        "pedagogy_coverage": 1.0,
+        "pedagogy_vote_pct": 40.2,
+        "socratic_bleu_pct": 50.195760407424785,
+        "mistake_location_micro_f1_pct": 38.12375249500998,
+        "mistake_correction_accuracy_pct": 11.87624750499002,
+        "solution_correctness_accuracy_pct": 50.0,
+        "solution_correctness_f1_pct": 0.0,
+        "scaffolding_generation_win_pct": 16.956521739130434,
+        "scaffolding_generation_score": 0.6473455682008162,
+        "scaffolding_generation_reference_score": 4.785749140200408,
+        "pedagogy_following_win_pct": 20.608695652173914,
+        "pedagogy_following_score": 1.0772762804446012,
+        "pedagogy_following_reference_score": 4.785749140200408
+      },
+      "sources": {
+        "bigmath_log": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/evaluation_results_base_vs_checkpoint2500_20260723/outputs/bigmath_sandboxfusion_base_mathsota/eval.log",
+        "mathtutorbench_yaml": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/evaluation_results_base_vs_checkpoint2500_20260723/data/rd211/mathtutorbench/results/results-mathsota.yaml",
+        "ped_rm_json": {
+          "scaffolding_generation": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/evaluation_results_base_vs_checkpoint2500_20260723/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-mathsota-scaffolding_generation.json_results.json",
+          "pedagogy_following": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/evaluation_results_base_vs_checkpoint2500_20260723/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-mathsota-pedagogy_following.json_results.json"
+        }
+      }
+    },
+    {
+      "model": "早期教学 RL-2500",
+      "metrics": {
+        "pre": 24.7,
+        "post": 45.425,
+        "gain_pp": 20.724999999999998,
+        "leak_vote_pct": 34.699999999999996,
+        "pedagogy_vote_rate": 0.295,
+        "leak_coverage": 1.0,
+        "pedagogy_coverage": 1.0,
+        "pedagogy_vote_pct": 29.5,
+        "socratic_bleu_pct": 51.67036192452971,
+        "mistake_location_micro_f1_pct": 38.672654690618764,
+        "mistake_correction_accuracy_pct": 20.459081836327346,
+        "solution_correctness_accuracy_pct": 50.04990019960079,
+        "solution_correctness_f1_pct": 0.19940179461615154,
+        "scaffolding_generation_win_pct": 19.217391304347824,
+        "scaffolding_generation_score": 1.1274521670134172,
+        "scaffolding_generation_reference_score": 4.785749140200408,
+        "pedagogy_following_win_pct": 23.565217391304348,
+        "pedagogy_following_score": 1.8735656472911006,
+        "pedagogy_following_reference_score": 4.785749140200408
+      },
+      "sources": {
+        "bigmath_log": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/evaluation_results_base_vs_checkpoint2500_20260723/outputs/bigmath_sandboxfusion_checkpoint_2500/eval.log",
+        "mathtutorbench_yaml": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/evaluation_results_base_vs_checkpoint2500_20260723/data/rd211/mathtutorbench/results/results-checkpoint2500.yaml",
+        "ped_rm_json": {
+          "scaffolding_generation": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/evaluation_results_base_vs_checkpoint2500_20260723/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-checkpoint2500-scaffolding_generation.json_results.json",
+          "pedagogy_following": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/evaluation_results_base_vs_checkpoint2500_20260723/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-checkpoint2500-pedagogy_following.json_results.json"
+        }
+      }
+    },
+    {
+      "model": "Belief V1-1180",
+      "metrics": {
+        "pre": 23.075000000000003,
+        "post": 31.05,
+        "gain_pp": 7.9750000000000005,
+        "leak_vote_pct": 42.699999999999996,
+        "pedagogy_vote_rate": 0.229,
+        "leak_coverage": 1.0,
+        "pedagogy_coverage": 1.0,
+        "pedagogy_vote_pct": 22.900000000000002,
+        "socratic_bleu_pct": 46.80186524571688,
+        "mistake_location_micro_f1_pct": 33.83233532934132,
+        "mistake_correction_accuracy_pct": 14.071856287425149,
+        "solution_correctness_accuracy_pct": 50.0,
+        "solution_correctness_f1_pct": 0.0,
+        "scaffolding_generation_win_pct": 18.869565217391305,
+        "scaffolding_generation_score": 0.7414664359714674,
+        "scaffolding_generation_reference_score": 4.785749140200408,
+        "pedagogy_following_win_pct": 23.73913043478261,
+        "pedagogy_following_score": 1.5468178127122962,
+        "pedagogy_following_reference_score": 4.785749140200408
+      },
+      "sources": {
+        "bigmath_log": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief16_checkpoint1180_eval_results_20260827/outputs/bigmath_sandboxfusion_belief16_checkpoint1180_retry1/eval.log",
+        "mathtutorbench_yaml": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief16_checkpoint1180_eval_results_20260827/data/rd211/mathtutorbench/results/results-belief16checkpoint1180.yaml",
+        "ped_rm_json": {
+          "scaffolding_generation": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief16_checkpoint1180_eval_results_20260827/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-belief16checkpoint1180-scaffolding_generation.json_results.json",
+          "pedagogy_following": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief16_checkpoint1180_eval_results_20260827/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-belief16checkpoint1180-pedagogy_following.json_results.json"
+        }
+      }
+    },
+    {
+      "model": "Belief V1-final",
+      "metrics": {
+        "pre": 23.775,
+        "post": 31.474999999999998,
+        "gain_pp": 7.7,
+        "leak_vote_pct": 39.5,
+        "pedagogy_vote_rate": 0.188,
+        "leak_coverage": 1.0,
+        "pedagogy_coverage": 1.0,
+        "pedagogy_vote_pct": 18.8,
+        "socratic_bleu_pct": 47.517650526506706,
+        "mistake_location_micro_f1_pct": 33.33333333333333,
+        "mistake_correction_accuracy_pct": 15.6686626746507,
+        "solution_correctness_accuracy_pct": 50.04990019960079,
+        "solution_correctness_f1_pct": 0.19940179461615154,
+        "scaffolding_generation_win_pct": 19.043478260869566,
+        "scaffolding_generation_score": 0.7516049592391304,
+        "scaffolding_generation_reference_score": 4.785749140200408,
+        "pedagogy_following_win_pct": 24.08695652173913,
+        "pedagogy_following_score": 1.5953162947944972,
+        "pedagogy_following_reference_score": 4.785749140200408
+      },
+      "sources": {
+        "bigmath_log": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief16_eval_results_20260825/outputs/bigmath_sandboxfusion_belief16_final_retry2/eval.log",
+        "mathtutorbench_yaml": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief16_eval_results_20260825/data/rd211/mathtutorbench/results/results-belief16final.yaml",
+        "ped_rm_json": {
+          "scaffolding_generation": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief16_eval_results_20260825/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-belief16final-scaffolding_generation.json_results.json",
+          "pedagogy_following": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/belief16_eval_results_20260825/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-belief16final-pedagogy_following.json_results.json"
+        }
+      }
+    },
+    {
+      "model": "Belief V2-1250",
+      "metrics": {
+        "pre": 23.95,
+        "post": 38.25,
+        "gain_pp": 14.299999999999999,
+        "leak_vote_pct": 35.8,
+        "pedagogy_vote_rate": 0.159,
+        "leak_coverage": 1.0,
+        "pedagogy_coverage": 1.0,
+        "pedagogy_vote_pct": 15.9,
+        "socratic_bleu_pct": 48.48736934781665,
+        "mistake_location_micro_f1_pct": 35.12974051896208,
+        "mistake_correction_accuracy_pct": 13.972055888223553,
+        "solution_correctness_accuracy_pct": 50.0,
+        "solution_correctness_f1_pct": 0.0,
+        "scaffolding_generation_win_pct": 18.521739130434785,
+        "scaffolding_generation_score": 0.73783935546875,
+        "scaffolding_generation_reference_score": 4.785749140200408,
+        "pedagogy_following_win_pct": 24.08695652173913,
+        "pedagogy_following_score": 1.6286768108865488,
+        "pedagogy_following_reference_score": 4.785749140200408
+      },
+      "sources": {
+        "bigmath_log": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_16_run3_final_eval_results_20260914/outputs/bigmath_sandboxfusion_beliefv2_16_run3_final_retry1/eval.log",
+        "mathtutorbench_yaml": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_16_run3_final_eval_results_20260914/data/rd211/mathtutorbench/results/results-beliefv216run3final.yaml",
+        "ped_rm_json": {
+          "scaffolding_generation": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_16_run3_final_eval_results_20260914/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-beliefv216run3final-scaffolding_generation.json_results.json",
+          "pedagogy_following": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_16_run3_final_eval_results_20260914/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-beliefv216run3final-pedagogy_following.json_results.json"
+        }
+      }
+    },
+    {
+      "model": "Belief V2-1500",
+      "metrics": {
+        "pre": 25.0,
+        "post": 42.075,
+        "gain_pp": 17.075000000000003,
+        "leak_vote_pct": 35.6,
+        "pedagogy_vote_rate": 0.149,
+        "leak_coverage": 1.0,
+        "pedagogy_coverage": 1.0,
+        "pedagogy_vote_pct": 14.899999999999999,
+        "socratic_bleu_pct": 50.63301830926411,
+        "mistake_location_micro_f1_pct": 33.73253493013972,
+        "mistake_correction_accuracy_pct": 14.271457085828343,
+        "solution_correctness_accuracy_pct": 50.04990019960079,
+        "solution_correctness_f1_pct": 0.19940179461615154,
+        "scaffolding_generation_win_pct": 20.52173913043478,
+        "scaffolding_generation_score": 1.1607006437882132,
+        "scaffolding_generation_reference_score": 4.78356129521909,
+        "pedagogy_following_win_pct": 24.52173913043478,
+        "pedagogy_following_score": 1.8483740765115488,
+        "pedagogy_following_reference_score": 4.78356129521909
+      },
+      "sources": {
+        "bigmath_log": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/checkpoint1500_eval_results/outputs/beliefv2_run3_checkpoint1500_bigmath_sandboxfusion/checkpoint-1500-sandboxfusion.log",
+        "mathtutorbench_yaml": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/checkpoint1500_eval_results/data/rd211/mathtutorbench/results/results-beliefv2run3checkpoint1500.yaml",
+        "ped_rm_json": {
+          "scaffolding_generation": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/checkpoint1500_eval_results/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-beliefv2run3checkpoint1500-scaffolding_generation.json_results.json",
+          "pedagogy_following": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/checkpoint1500_eval_results/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-beliefv2run3checkpoint1500-pedagogy_following.json_results.json"
+        }
+      }
+    },
+    {
+      "model": "H20-1024",
+      "metrics": {
+        "pre": 25.174999999999997,
+        "post": 35.25,
+        "gain_pp": 10.075000000000001,
+        "leak_vote_pct": 18.9,
+        "pedagogy_vote_rate": 0.112,
+        "leak_coverage": 1.0,
+        "pedagogy_coverage": 1.0,
+        "pedagogy_vote_pct": 11.200000000000001,
+        "socratic_bleu_pct": 49.19966372675606,
+        "mistake_location_micro_f1_pct": 32.13572854291417,
+        "mistake_correction_accuracy_pct": 16.766467065868262,
+        "solution_correctness_accuracy_pct": 50.04990019960079,
+        "solution_correctness_f1_pct": 0.19940179461615154,
+        "scaffolding_generation_win_pct": 21.130434782608695,
+        "scaffolding_generation_score": 1.218704985950304,
+        "scaffolding_generation_reference_score": 4.916149907578593,
+        "pedagogy_following_win_pct": 25.82608695652174,
+        "pedagogy_following_score": 1.948436418097952,
+        "pedagogy_following_reference_score": 4.916149907578593
+      },
+      "sources": {
+        "bigmath_log": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_h20_1024_run1_final_eval_results_20260928/outputs/bigmath_sandboxfusion_beliefv2_h20_1024_run1_final/eval.log",
+        "mathtutorbench_yaml": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_h20_1024_run1_final_eval_results_20260928/data/rd211/mathtutorbench/results/results-beliefv2h201024run1final.yaml",
+        "ped_rm_json": {
+          "scaffolding_generation": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_h20_1024_run1_final_eval_results_20260928/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-beliefv2h201024run1final-scaffolding_generation.json_results.json",
+          "pedagogy_following": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_h20_1024_run1_final_eval_results_20260928/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-beliefv2h201024run1final-pedagogy_following.json_results.json"
+        }
+      }
+    },
+    {
+      "model": "H20 EOS-Mask",
+      "metrics": {
+        "pre": 24.625,
+        "post": 31.775,
+        "gain_pp": 7.1499999999999995,
+        "leak_vote_pct": 58.8,
+        "pedagogy_vote_rate": 0.504,
+        "leak_coverage": 1.0,
+        "pedagogy_coverage": 1.0,
+        "pedagogy_vote_pct": 50.4,
+        "socratic_bleu_pct": 45.98388828086883,
+        "mistake_location_micro_f1_pct": 36.427145708582835,
+        "mistake_correction_accuracy_pct": 13.17365269461078,
+        "solution_correctness_accuracy_pct": 50.0998003992016,
+        "solution_correctness_f1_pct": 0.398406374501992,
+        "scaffolding_generation_win_pct": 17.47826086956522,
+        "scaffolding_generation_score": 0.71046799245088,
+        "scaffolding_generation_reference_score": 4.916149907578593,
+        "pedagogy_following_win_pct": 21.565217391304348,
+        "pedagogy_following_score": 1.254057860529941,
+        "pedagogy_following_reference_score": 4.916149907578593
+      },
+      "sources": {
+        "bigmath_log": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_h20_1024_eos_mask_run1_final_eval_results_20261007/outputs/bigmath_sandboxfusion_beliefv2_h20_1024_eos_mask_run1_final/eval.log",
+        "mathtutorbench_yaml": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_h20_1024_eos_mask_run1_final_eval_results_20261007/data/rd211/mathtutorbench/results/results-beliefv2h201024eosmaskrun1final.yaml",
+        "ped_rm_json": {
+          "scaffolding_generation": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_h20_1024_eos_mask_run1_final_eval_results_20261007/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-beliefv2h201024eosmaskrun1final-scaffolding_generation.json_results.json",
+          "pedagogy_following": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/beliefv2_h20_1024_eos_mask_run1_final_eval_results_20261007/data/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-beliefv2h201024eosmaskrun1final-pedagogy_following.json_results.json"
+        }
+      }
+    }
+  ],
+  "thesis_unchanged_sha256": "3bf5b1f1f8120808d6364e2ff96edf6b3b12cf6c074b65021ebdbb404012ea4f"
+}

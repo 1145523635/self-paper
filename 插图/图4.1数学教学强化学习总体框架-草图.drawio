@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Codex" version="29.0.3">
+  <diagram id="fig41-teaching-rl-draft" name="图4.1 总体框架草图">
+    <mxGraphModel dx="1340" dy="1050" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1340" pageHeight="1050" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="interaction-panel" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#F7F9FC;strokeColor=#6F8CAE;arcSize=4;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="510" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="interaction-panel-title" value="① 多轮课堂交互" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=none;strokeColor=none;rounded=0;strokeWidth=0;fontColor=#6F8CAE;fontSize=20;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="52" y="222" width="486" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback-panel" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#FFFCF7;strokeColor=#B88A51;arcSize=4;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="590" y="210" width="670" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback-panel-title" value="② 教学评价与认知反馈" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=none;strokeColor=none;rounded=0;strokeWidth=0;fontColor=#B88A51;fontSize=20;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="602" y="222" width="646" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="optimization-panel" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#F6FAF7;strokeColor=#668D77;arcSize=4;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="1220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="optimization-panel-title" value="③ GRPO 策略更新" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=none;strokeColor=none;rounded=0;strokeWidth=0;fontColor=#668D77;fontSize=20;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="52" y="832" width="1196" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="图4.1  基于学生认知增益反馈的数学教学强化学习总体框架（草图）" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=none;strokeColor=none;rounded=0;strokeWidth=0;fontColor=#243342;fontSize=22;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="12" width="1220" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="update-label" value="仅更新教师参数 θ" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=none;strokeColor=none;rounded=0;strokeWidth=0;fontColor=#B54E4E;fontSize=17;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="46" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-persona" value="&lt;b&gt;数学题目 x ＋ 学生画像&lt;/b&gt;&lt;br&gt;同题同画像组内采样" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#F3F4F6;strokeColor=#88929D;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="initial-model" value="&lt;b&gt;第三章推理模型&lt;/b&gt;&lt;br&gt;初始化教师权重" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#E6EDF5;strokeColor=#8BA5C5;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="reference-answer" value="&lt;b&gt;标准答案 y*&lt;/b&gt;&lt;br&gt;仅用于训练评价与目标序列评分" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#F3F4F6;strokeColor=#88929D;" vertex="1" parent="1">
+          <mxGeometry x="950" y="100" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="teacher" value="&lt;b&gt;教师模型 πθ&lt;/b&gt;&lt;br&gt;提问 · 提示 · 纠错&lt;br&gt;可训练" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#DCE7F4;strokeColor=#6F8CAE;" vertex="1" parent="1" tooltip="src/classroom.py；教师以第三章模型初始化，仅其参数参与更新。">
+          <mxGeometry x="80" y="290" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sandbox" value="&lt;b&gt;SandboxFusion&lt;/b&gt;&lt;br&gt;局部计算／验证&lt;br&gt;真实执行反馈" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#F6DFDD;strokeColor=#E18C88;" vertex="1" parent="1" tooltip="src/classroom_sandboxfusion.py；当前教学配置每轮至多执行一次，执行后续写同一教师消息。">
+          <mxGeometry x="330" y="290" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="student" value="&lt;b&gt;模拟学生 pφ&lt;/b&gt;&lt;br&gt;画像驱动回答&lt;br&gt;参数冻结" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#F0F3F7;strokeColor=#8BA5C5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="trajectory" value="&lt;b&gt;多轮教学轨迹 τ&lt;/b&gt;&lt;br&gt;对话与真实工具反馈&lt;br&gt;轮次及有效性标记" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#FFFFFF;strokeColor=#8BA5C5;" vertex="1" parent="1">
+          <mxGeometry x="330" y="500" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="interaction-note" value="师生交替生成；结束标记／轮次／长度限制" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=none;strokeColor=none;rounded=0;strokeWidth=0;fontColor=#657181;fontSize=15;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="665" width="450" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="judges" value="&lt;b&gt;教学裁判（冻结）&lt;/b&gt;&lt;br&gt;答案泄露 ＋ 教学原则" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#EFF2F5;strokeColor=#88929D;" vertex="1" parent="1" tooltip="生产训练使用配置中的 does_not_leak_answer 与 follows_pedagogical_values；未接入影子裁判。">
+          <mxGeometry x="630" y="290" width="240" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="student-assessment" value="&lt;b&gt;辅导后独立作答&lt;/b&gt;&lt;br&gt;冻结学生 · 中性评估提示&lt;br&gt;标准答案校验 → 正确率 qᵢ" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#F0F3F7;strokeColor=#8BA5C5;" vertex="1" parent="1">
+          <mxGeometry x="630" y="435" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="trajectory-reward" value="&lt;b&gt;轨迹级奖励 Rᵢ&lt;/b&gt;&lt;br&gt;学生解题表现／违规惩罚&lt;br&gt;及已启用的回复规则项" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#FFFFFF;strokeColor=#88929D;" vertex="1" parent="1" tooltip="train_rl_sandboxfusion.py：end_rm、thinking、end_of_conversation、length；可选旧逐轮奖励在本配置权重为0。">
+          <mxGeometry x="630" y="605" width="240" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="belief" value="&lt;b&gt;认知增益估计（冻结学生）&lt;/b&gt;&lt;br&gt;中性提示 · 对齐前后上下文&lt;br&gt;ΔB = B⁺ − B⁻" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#FBE8D4;strokeColor=#EEB274;" vertex="1" parent="1" tooltip="src/student_belief.py: build_belief_turn_inputs；比较当前教师可见消息前后，不加入随后学生回复。">
+          <mxGeometry x="950" y="290" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="calibration" value="&lt;b&gt;画像噪声校准&lt;/b&gt;&lt;br&gt;d = max(0, ΔB − ηₛ)" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#FFF1E2;strokeColor=#EEB274;" vertex="1" parent="1">
+          <mxGeometry x="950" y="435" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="credit" value="&lt;b&gt;有效性门控与逐轮标准化&lt;/b&gt;&lt;br&gt;裁判通过 · 回复有效 · qᵢ &amp;gt; 0&lt;br&gt;同题目／画像／轮次比较&lt;br&gt;正向截断 × qᵢ → gᵢ,ₜ" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#FBE8D4;strokeColor=#EEB274;" vertex="1" parent="1" tooltip="src/student_belief.py: student_belief_v2_valid_mask 与 normalize_turn_beliefs_v2；需足够有效轨迹，排除评分失败、截断及严重重复。">
+          <mxGeometry x="950" y="575" width="270" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback-note" value="标准答案不进入师生教学输入；认知反馈经门控后作为逐轮辅助信号。" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=none;strokeColor=none;rounded=0;strokeWidth=0;fontColor=#75664F;fontSize=14;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="717" width="610" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="group-advantage" value="&lt;b&gt;GRPO 组内优势&lt;/b&gt;&lt;br&gt;轨迹奖励 → Aᵢᵗʳᵃʲ" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#FFFFFF;strokeColor=#7D9D89;" vertex="1" parent="1">
+          <mxGeometry x="150" y="870" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="turn-advantage" value="&lt;b&gt;逐轮优势融合&lt;/b&gt;&lt;br&gt;Aᵢ,ₜ = Aᵢᵗʳᵃʲ ＋ λᴮ gᵢ,ₜ" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#FFF1E2;strokeColor=#EEB274;" vertex="1" parent="1">
+          <mxGeometry x="540" y="870" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="grpo-update" value="&lt;b&gt;GRPO 策略优化&lt;/b&gt;&lt;br&gt;按有效教师词元更新 θ" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=#E5EFE8;strokeColor=#668D77;" vertex="1" parent="1">
+          <mxGeometry x="950" y="870" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mask-note" value="损失掩码：学生回复与真实工具输出不参与梯度更新；学生及裁判保持冻结。" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;strokeWidth=1.7;fontFamily=SimSun;fontSize=17;fontColor=#243342;align=center;verticalAlign=middle;spacing=8;fillColor=none;strokeColor=none;rounded=0;strokeWidth=0;fontColor=#556C5D;fontSize=15;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="970" width="1140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="input-to-interaction" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.294;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="problem-persona" target="interaction-panel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="initialize-teacher" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;dashed=1;dashPattern=6 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="initial-model" target="teacher">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="260" />
+              <mxPoint x="170" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teacher-to-student" value="提问／提示" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="teacher" target="student">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="student-to-teacher" value="学生回应" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="student" target="teacher">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="545" />
+              <mxPoint x="60" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teacher-to-sandbox" value="Python" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#C17670;strokeWidth=1.8;fontColor=#C17670;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="teacher" target="sandbox">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="315" />
+              <mxPoint x="310" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sandbox-to-teacher" value="真实结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#C17670;strokeWidth=1.8;fontColor=#C17670;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="sandbox" target="teacher">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="365" />
+              <mxPoint x="280" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="student-to-trajectory" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="student" target="trajectory">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trajectory-to-judges" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="trajectory" target="judges">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="545" />
+              <mxPoint x="570" y="332.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trajectory-to-belief" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#C38A4A;strokeWidth=1.8;fontColor=#C38A4A;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;dashed=1;dashPattern=6 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="trajectory" target="belief">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="545" />
+              <mxPoint x="570" y="270" />
+              <mxPoint x="1017.5" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="answer-to-belief" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;dashed=1;dashPattern=6 4;exitX=0.65;exitY=1;exitDx=0;exitDy=0;entryX=0.65;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="reference-answer" target="belief">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="answer-to-assessment" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;dashed=1;dashPattern=6 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="reference-answer" target="student-assessment">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="135" />
+              <mxPoint x="900" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="judge-pass" value="通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="judges" target="student-assessment">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="judge-reject" value="拒绝惩罚" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;dashed=1;dashPattern=6 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="judges" target="trajectory-reward">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="332.5" />
+              <mxPoint x="610" y="652.5" />
+            </Array>
+            <mxPoint x="-50" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assessment-to-reward" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="student-assessment" target="trajectory-reward">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="belief-to-calibration" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#C38A4A;strokeWidth=1.8;fontColor=#C38A4A;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="belief" target="calibration">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="calibration-to-credit" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#C38A4A;strokeWidth=1.8;fontColor=#C38A4A;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="calibration" target="credit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="judge-to-credit" value="教学判定" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;dashed=1;dashPattern=6 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;" edge="1" parent="1" source="judges" target="credit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="332.5" />
+              <mxPoint x="920" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="accuracy-to-credit" value="qᵢ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;dashed=1;dashPattern=6 4;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="student-assessment" target="credit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="502.5" />
+              <mxPoint x="890" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reward-to-group-advantage" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="trajectory-reward" target="group-advantage">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="785" />
+              <mxPoint x="275" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="group-to-turn-advantage" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="group-advantage" target="turn-advantage">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="credit-to-turn-advantage" value="逐轮反馈 gᵢ,ₜ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#C38A4A;strokeWidth=2.2;fontColor=#C38A4A;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="credit" target="turn-advantage">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1085" y="800" />
+              <mxPoint x="675" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turn-advantage-to-update" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=1.8;fontColor=#64748B;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="turn-advantage" target="grpo-update">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="update-teacher" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#B54E4E;strokeWidth=2.7;fontColor=#B54E4E;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="grpo-update" target="teacher">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="910" />
+              <mxPoint x="1290" y="70" />
+              <mxPoint x="20" y="70" />
+              <mxPoint x="20" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

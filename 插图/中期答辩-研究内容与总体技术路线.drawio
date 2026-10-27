@@ -1,0 +1,220 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="thesis-midterm-roadmap" name="研究内容与总体技术路线">
+    <mxGraphModel dx="1952" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="problem-frame" value="" style="rounded=0;arcSize=8;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#344977;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="44" width="336" height="796" as="geometry" />
+        </mxCell>
+        <mxCell id="content-frame" value="" style="rounded=0;arcSize=8;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#344977;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="422" y="44" width="1154" height="796" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-header-bg" value="" style="rounded=0;arcSize=8;whiteSpace=wrap;html=1;fillColor=#344977;strokeColor=#344977;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="136" y="18" width="184" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-header" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;研究问题&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="136" y="18" width="184" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="content-header-bg" value="" style="rounded=0;arcSize=8;whiteSpace=wrap;html=1;fillColor=#344977;strokeColor=#344977;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="885" y="18" width="228" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="content-header" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;研究内容与技术路线&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="885" y="18" width="228" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-1" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="80" y="117" width="296" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-title-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;数学推理可靠性不足&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=22;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="87" y="131" width="282" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-body-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;计算错误与多步推理误差累积&lt;br&gt;固定预算难兼顾&lt;br&gt;训练稳定性与工具探索&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=19;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="84" y="179" width="288" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="work-area-1" value="" style="rounded=0;arcSize=8;whiteSpace=wrap;html=1;strokeWidth=1.5;dashed=1;dashPattern=7 5;" parent="1" vertex="1">
+          <mxGeometry x="452" y="100" width="1094" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="work-title-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;研究一：基于渐进式工具调用调度的数学推理增强（PTCS-RL）&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=24;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="112" width="750" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="status-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;已完成&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=18;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="117" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="node-1-1" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3B4CE;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="472" y="172" width="326" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="node-heading-1-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;工具增强推理&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=23;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="181" width="310" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="node-body-1-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;Python 沙盒执行&lt;br&gt;执行反馈验证与自纠错&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=20;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="221" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-1-1" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="803" y="217" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="node-1-2" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3B4CE;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="830" y="172" width="326" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="node-heading-1-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;GSPO 策略优化&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=23;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="838" y="181" width="310" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="node-body-1-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;最终答案正确性奖励&lt;br&gt;仅优化模型生成行为&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=20;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="838" y="221" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-1-2" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="1161" y="217" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="node-1-3" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1188" y="172" width="338" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="node-heading-1-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;渐进式预算调度&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=23;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1196" y="181" width="322" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="node-body-1-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;按训练阶段放宽调用上限&lt;br&gt;1 次 → 2 次 → 4 次&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=20;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1196" y="221" width="322" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-2" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="80" y="375" width="296" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-title-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;教学过程反馈不足&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=22;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="87" y="389" width="282" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-body-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;模型偏重直接给出答案&lt;br&gt;终局奖励难以评价&lt;br&gt;每一轮提示的具体贡献&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=19;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="84" y="437" width="288" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="work-area-2" value="" style="rounded=0;arcSize=8;whiteSpace=wrap;html=1;strokeWidth=1.5;dashed=1;dashPattern=7 5;" parent="1" vertex="1">
+          <mxGeometry x="452" y="358" width="1094" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="work-title-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;研究二：基于学生认知增益反馈的数学教学能力增强&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=24;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="368" width="956" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="status-bg-2" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF0DB;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1434" y="375" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="status-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;进行中&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=18;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1434" y="375" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="node-2-1" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3B4CE;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="472" y="430" width="326" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="node-heading-2-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;多轮课堂交互&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=23;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="439" width="310" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="node-body-2-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;基于 PedagogicalRL 框架&lt;br&gt;师生交互与受约束工具验证&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=20;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="479" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-2-1" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="803" y="475" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="node-2-2" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3B4CE;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="830" y="430" width="326" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="node-heading-2-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;学生认知增益反馈&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=23;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="838" y="439" width="310" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="node-body-2-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;提示前后答案对数概率变化&lt;br&gt;画像噪声校准与教学门控&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=20;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="838" y="479" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-2-2" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="1161" y="475" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="node-2-3" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1188" y="430" width="338" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="node-heading-2-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;GRPO 教学二次训练&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=23;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1196" y="439" width="322" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="node-body-2-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;逐轮反馈与组内标准化&lt;br&gt;优化教师提示和纠错策略&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=20;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1196" y="479" width="322" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-3" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="80" y="633" width="296" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-title-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;开放复用与应用衔接不足&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=22;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="87" y="647" width="282" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-body-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;模型及配套资源分散&lt;br&gt;复现与应用接入门槛较高&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=19;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="84" y="695" width="288" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-to-work-3" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="390" y="731" width="52" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="work-area-3" value="" style="rounded=0;arcSize=8;whiteSpace=wrap;html=1;strokeWidth=1.5;dashed=1;dashPattern=7 5;" parent="1" vertex="1">
+          <mxGeometry x="452" y="616" width="1094" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="work-title-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;研究三：面向开放应用的数学推理与教学模型构建&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=24;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="626" width="956" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="status-bg-3" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#EDEFF3;strokeColor=none;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1434" y="633" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="status-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;进行中&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=18;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1434" y="633" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="node-3-1" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3B4CE;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="472" y="688" width="326" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="node-heading-3-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;开源资源整理&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=23;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="697" width="310" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="node-body-3-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;模型权重、推理代码与配置&lt;br&gt;工具环境、评测与使用文档&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=20;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="737" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-3-1" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="803" y="733" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="node-3-2" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A3B4CE;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="830" y="688" width="326" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="node-heading-3-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;统一模型推理服务&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=23;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="838" y="697" width="310" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="node-body-3-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;数学解题与多轮教学接口&lt;br&gt;上下文管理与工具执行约束&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=20;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="838" y="737" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-3-2" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="1161" y="733" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="node-3-3" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1188" y="688" width="338" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="node-heading-3-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;应用原型与复现验证&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=23;fontStyle=1;fontColor=#344977;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1196" y="697" width="322" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="node-body-3-3" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;交互式数学问答应用原型&lt;br&gt;能力评测、接口测试与复现&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=20;fontStyle=0;fontColor=#24344E;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1196" y="737" width="322" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="work-progress-1" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="970" y="317" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="work-link-label-1" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;推理模型作为教师初始模型&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=19;fontStyle=0;fontColor=#586F90;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1012" y="319" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-progress-1" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="213" y="312" width="30" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="work-progress-2" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="970" y="575" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="work-link-label-2" value="&lt;div style=&quot;line-height:1.35;&quot;&gt;汇集推理模型与教学模型资源&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;spacing=0;fontFamily=PingFang SC;fontSize=19;fontStyle=0;fontColor=#586F90;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1012" y="577" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="problem-progress-2" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
+          <mxGeometry x="213" y="570" width="30" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="5A1XCXcxwi4F7kT_IG_K-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;论文外审&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1372" y="117" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5A1XCXcxwi4F7kT_IG_K-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;专利授权&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1476" y="117" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5A1XCXcxwi4F7kT_IG_K-7" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" vertex="1" parent="1">
+          <mxGeometry x="390" y="447" width="52" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="5A1XCXcxwi4F7kT_IG_K-8" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" vertex="1" parent="1">
+          <mxGeometry x="390" y="189" width="52" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
