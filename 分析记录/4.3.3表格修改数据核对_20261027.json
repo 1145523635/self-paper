@@ -1,0 +1,27 @@
+{
+  "replacement": {
+    "model": "认知增益＋数学知识回放",
+    "metrics": {
+      "pre": 24.575,
+      "post": 35.949999999999996,
+      "gain_pp": 11.375,
+      "leak_vote_pct": 31.1,
+      "pedagogy_vote_pct": 22.0,
+      "socratic_bleu_pct": 48.1375590545751,
+      "solution_correctness_f1_pct": 0.0,
+      "mistake_location_micro_f1_pct": 32.684630738522955,
+      "mistake_correction_accuracy_pct": 14.67065868263473,
+      "scaffolding_generation_win_pct": 18.0,
+      "pedagogy_following_win_pct": 22.782608695652172
+    },
+    "sources": {
+      "bigmath_log": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/checkpoint1300_eval_results_20260810/outputs/bigmath_sandboxfusion_belief14plus2_checkpoint1300/eval.log",
+      "mathtutorbench_yaml": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/checkpoint1300_eval_results_20260810/data_补充/rd211/mathtutorbench/results/results-belief14plus2checkpoint1300.yaml",
+      "scaffolding_generation": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/checkpoint1300_eval_results_20260810/data_补充/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-belief14plus2checkpoint1300-scaffolding_generation.json_results.json",
+      "pedagogy_following": "/Users/yinheyibei/Desktop/PedagogicalRL-main/evaluation/checkpoint1300_eval_results_20260810/data_补充/rd211/mathtutorbench/reward_model/scaffolding_scores/generations-belief14plus2checkpoint1300-pedagogy_following.json_results.json"
+    }
+  },
+  "bold_rule": "各结果指标按箭头方向比较，显示精度并列最优均加粗；辅导前正确率为起点，不评最优",
+  "markdown": "/Users/yinheyibei/Desktop/大论文/分析记录/4.3.3整体对比数据表.md",
+  "markdown_sha256": "7773f448462a35e7929c3ae0fc133325d583c5925f40ff43486da62eb4c8c79e"
+}

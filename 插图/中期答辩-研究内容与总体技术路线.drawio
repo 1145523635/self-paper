@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
   <diagram id="thesis-midterm-roadmap" name="研究内容与总体技术路线">
-    <mxGraphModel dx="1952" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,16 +202,16 @@
         <mxCell id="problem-progress-2" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
           <mxGeometry x="213" y="570" width="30" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="5A1XCXcxwi4F7kT_IG_K-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;论文外审&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A1XCXcxwi4F7kT_IG_K-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;论文外审&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1372" y="117" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5A1XCXcxwi4F7kT_IG_K-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;专利授权&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A1XCXcxwi4F7kT_IG_K-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;专利受理&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1476" y="117" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5A1XCXcxwi4F7kT_IG_K-7" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" vertex="1" parent="1">
+        <mxCell id="5A1XCXcxwi4F7kT_IG_K-7" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
           <mxGeometry x="390" y="447" width="52" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="5A1XCXcxwi4F7kT_IG_K-8" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" vertex="1" parent="1">
+        <mxCell id="5A1XCXcxwi4F7kT_IG_K-8" value="" style="shape=singleArrow;direction=east;whiteSpace=wrap;html=1;fillColor=#DCE8F9;strokeColor=#7B9BC6;strokeWidth=1.5;arrowWidth=0.5;arrowSize=0.35;" parent="1" vertex="1">
           <mxGeometry x="390" y="189" width="52" height="32" as="geometry" />
         </mxCell>
       </root>

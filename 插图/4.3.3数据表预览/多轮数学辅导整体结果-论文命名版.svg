@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1373" viewBox="0 0 2700 1373">
+  <rect width="100%" height="100%" fill="white" />
+  <text x="1025.00" y="88.50" fill="#111111" font-family="Songti SC" font-size="50" font-weight="700">数学教学模型的多轮辅导结果</text>
+  <line x1="100" y1="142" x2="2600" y2="142" stroke="#111111" stroke-width="6" />
+  <text x="253.00" y="218.88" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">对比方法</text>
+  <text x="731.00" y="218.88" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">检查点／实验设置</text>
+  <text x="1235.00" y="195.84" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">学生辅导前</text>
+  <text x="1220.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">正确率（</text>
+  <text x="1364.00" y="241.92" fill="#111111" font-family="Times New Roman" font-size="36" font-weight="700">%</text>
+  <text x="1394.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">）</text>
+  <text x="1485.00" y="195.84" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">学生辅导后</text>
+  <text x="1470.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">正确率（</text>
+  <text x="1614.00" y="241.92" fill="#111111" font-family="Times New Roman" font-size="36" font-weight="700">%</text>
+  <text x="1644.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">）</text>
+  <text x="1735.00" y="195.84" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">学生解题率</text>
+  <text x="1726.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">增量（</text>
+  <text x="1834.00" y="241.92" fill="#111111" font-family="Times New Roman" font-size="36" font-weight="700">pp</text>
+  <text x="1870.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">）</text>
+  <text x="1906.00" y="241.92" fill="#111111" font-family="Times New Roman" font-size="36" font-weight="700">↑</text>
+  <text x="2028.00" y="195.84" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">泄露裁判</text>
+  <text x="1986.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">拒绝率（</text>
+  <text x="2130.00" y="241.92" fill="#111111" font-family="Times New Roman" font-size="36" font-weight="700">%</text>
+  <text x="2160.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">）</text>
+  <text x="2196.00" y="241.92" fill="#111111" font-family="Times New Roman" font-size="36" font-weight="700">↓</text>
+  <text x="2353.00" y="195.84" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">教学原则</text>
+  <text x="2311.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">拒绝率（</text>
+  <text x="2455.00" y="241.92" fill="#111111" font-family="Times New Roman" font-size="36" font-weight="700">%</text>
+  <text x="2485.00" y="241.92" fill="#111111" font-family="Songti SC" font-size="36" font-weight="700">）</text>
+  <text x="2521.00" y="241.92" fill="#111111" font-family="Times New Roman" font-size="36" font-weight="700">↓</text>
+  <line x1="100" y1="272" x2="2600" y2="272" stroke="#111111" stroke-width="3" />
+  <text x="205.00" y="341.20" fill="#111111" font-family="Songti SC" font-size="40" font-weight="400">数学推理基线</text>
+  <text x="165.00" y="453.20" fill="#111111" font-family="Songti SC" font-size="40" font-weight="400">教学强化学习基线</text>
+  <text x="165.00" y="621.20" fill="#111111" font-family="Songti SC" font-size="40" font-weight="400">基础认知增益模型</text>
+  <text x="165.00" y="845.20" fill="#111111" font-family="Songti SC" font-size="40" font-weight="400">门控认知增益模型</text>
+  <text x="165.00" y="1099.20" fill="#111111" font-family="Songti SC" font-size="40" font-weight="400">门控认知增益模型</text>
+  <text x="580.00" y="340.54" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">未进行教学训练</text>
+  <text x="1270.00" y="341.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">23.625</text>
+  <text x="1520.00" y="341.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">36.250</text>
+  <text x="1770.00" y="341.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">12.625</text>
+  <text x="2045.00" y="341.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">69.300</text>
+  <text x="2370.00" y="341.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">40.200</text>
+  <text x="580.00" y="452.54" fill="#111111" font-family="Times New Roman" font-size="38" font-weight="400">2500</text>
+  <text x="656.00" y="452.54" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">步；不含认知增益</text>
+  <text x="1270.00" y="453.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">24.700</text>
+  <text x="1520.00" y="453.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">45.425</text>
+  <text x="1770.00" y="453.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">20.725</text>
+  <text x="2045.00" y="453.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">34.700</text>
+  <text x="2370.00" y="453.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">29.500</text>
+  <text x="580.00" y="564.54" fill="#111111" font-family="Times New Roman" font-size="38" font-weight="400">1180</text>
+  <text x="655.98" y="564.54" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">步检查点</text>
+  <text x="1270.00" y="565.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">23.075</text>
+  <text x="1520.00" y="565.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">31.050</text>
+  <text x="1780.00" y="565.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">7.975</text>
+  <text x="2045.00" y="565.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">42.700</text>
+  <text x="2370.00" y="565.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">22.900</text>
+  <text x="580.00" y="676.54" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">最终检查点</text>
+  <text x="1270.00" y="677.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">23.775</text>
+  <text x="1520.00" y="677.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">31.475</text>
+  <text x="1780.00" y="677.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">7.700</text>
+  <text x="2045.00" y="677.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">39.500</text>
+  <text x="2370.00" y="677.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">18.800</text>
+  <text x="580.00" y="788.54" fill="#111111" font-family="Times New Roman" font-size="38" font-weight="400">1250</text>
+  <text x="656.00" y="788.54" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">步检查点</text>
+  <text x="1270.00" y="789.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">23.950</text>
+  <text x="1520.00" y="789.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">38.250</text>
+  <text x="1770.00" y="789.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">14.300</text>
+  <text x="2045.00" y="789.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">35.800</text>
+  <text x="2370.00" y="789.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">15.900</text>
+  <text x="580.00" y="900.54" fill="#111111" font-family="Times New Roman" font-size="38" font-weight="400">1500</text>
+  <text x="656.00" y="900.54" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">步检查点</text>
+  <text x="1270.00" y="901.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">25.000</text>
+  <text x="1520.00" y="901.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">42.075</text>
+  <text x="1770.00" y="901.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">17.075</text>
+  <text x="2045.00" y="901.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">35.600</text>
+  <text x="2370.00" y="901.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">14.900</text>
+  <text x="580.00" y="1042.54" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">扩展：单轮上限</text>
+  <text x="846.00" y="1042.54" fill="#111111" font-family="Times New Roman" font-size="38" font-weight="400">1024</text>
+  <text x="922.00" y="1042.54" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">词元</text>
+  <text x="1270.00" y="1043.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">25.175</text>
+  <text x="1520.00" y="1043.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">35.250</text>
+  <text x="1770.00" y="1043.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">10.075</text>
+  <text x="2045.00" y="1043.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">18.900</text>
+  <text x="2370.01" y="1043.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">11.200</text>
+  <text x="580.00" y="1130.22" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">扩展：</text>
+  <text x="694.00" y="1130.22" fill="#111111" font-family="Times New Roman" font-size="38" font-weight="400">1024</text>
+  <text x="770.00" y="1130.22" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">词元</text>
+  <text x="580.00" y="1178.86" fill="#111111" font-family="Songti SC" font-size="38" font-weight="400">＋序列边界与损失掩码修正</text>
+  <text x="1270.00" y="1155.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">24.625</text>
+  <text x="1520.00" y="1155.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">31.775</text>
+  <text x="1780.00" y="1155.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">7.150</text>
+  <text x="2045.00" y="1155.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">58.800</text>
+  <text x="2370.00" y="1155.20" fill="#111111" font-family="Times New Roman" font-size="40" font-weight="400">50.400</text>
+  <line x1="100" y1="1198" x2="2600" y2="1198" stroke="#111111" stroke-width="6" />
+  <text x="104.00" y="1265.57" fill="#111111" font-family="Songti SC" font-size="29" font-weight="400">注：</text>
+  <text x="162.00" y="1265.57" fill="#111111" font-family="Times New Roman" font-size="29" font-weight="400">pp</text>
+  <text x="192.00" y="1265.57" fill="#111111" font-family="Songti SC" font-size="29" font-weight="400">表示百分点；两类拒绝率为平均裁判拒绝投票比例。</text>
+  <text x="104.00" y="1312.57" fill="#111111" font-family="Songti SC" font-size="29" font-weight="400">后两行为扩展实验设置，生成预算及部分实现不同，不属于严格同条件消融。</text>
+</svg>
